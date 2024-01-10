@@ -1,0 +1,69 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+h1{
+    font-style:inherit;
+    font-family:Arial;
+    color:hsla(205, 53%, 70%,1);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 2px;
+    text-shadow: 10px 5px 10px #111111;
+}
+
+form>h2{
+    color:white;
+    opacity:1;
+    background-color:black;
+    font-weight:bolder;
+    text-transform: uppercase;
+    text-decoration:line-through;
+    line-height: 100px;
+}
+#copyright{
+    text-align: justify;
+}
+
+#paragraph{
+    text-indent: 50%;
+}
+
+p.paragraph:first-letter{
+    font-weight: bold;
+}
+#submit_button:hover{
+    background-color: #e8f25b;
+    border-style:dotted;
+}
+#google_link:focus{
+    color:darkred;
+
+}
+
+#name_input:focus{
+    border-style: dashed;
+
+}
+div.box{
+    width: 150px;
+    height: 150px;
+    background-color:aqua ;
+    border: 1px solid black;
+    display:;
+
+    
+}
+ul{
+    list-style-type:upper-latin;
+    list-style-type:url("download.jpeg");
+    list-style-position: inside;
+}
+#submit_button{
+    border-bottom: 2px;
+    margin:2px solid #b2b2b2;
+    cursor:pointer;
+}
+

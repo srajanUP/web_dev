@@ -1,0 +1,28 @@
+.box{
+    height: auto;
+    width: auto;
+   
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.container{
+    height: 500px;
+    display: grid;
+    background-color: brown;
+    column-gap: 2px;
+    row-gap: 2px;
+    grid-template-columns:20% 1fr;
+    grid-template-rows: 20% 1fr 20% ;
+}
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#box4{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
