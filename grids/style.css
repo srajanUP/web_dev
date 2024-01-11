@@ -12,8 +12,11 @@
     background-color: brown;
     column-gap: 2px;
     row-gap: 2px;
-    grid-template-columns:20% 1fr;
+    grid-template-columns:100% ;
     grid-template-rows: 20% 1fr 20% ;
+
+
+    grid-template-areas: "header" "side" "main" "footer";
 }
 #box1{
     grid-column-start: 1;
@@ -25,4 +28,16 @@
     grid-column-start: 1;
     grid-column-end: 4;
 
+}
+#box1{
+    grid-area: header;
+}
+#box2{
+    grid-area:side;
+}
+#box3{
+    grid-area:main;
+}
+#box4{
+    grid-area: footer;
 }
